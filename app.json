@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Mech App",
+    "description": "Mech App",
+    "scheme": "Mech",
+    "slug": "Mech",
+    "privacy": "public",
+    "version": "0.0.1",
+    "platforms": ["android", "ios"],
+    "githubUrl": "https://github.com/calebnance/expo-uber",
+    "orientation": "portrait",
+    "primaryColor": "#000000",
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "backgroundColor": "#000000",
+      
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.mech.mech"
+    },
+    "ios": {
+      "buildNumber": "0.0.1",
+      "supportsTablet": true
+    }
+  }
+}
